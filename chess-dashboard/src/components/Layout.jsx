@@ -9,10 +9,12 @@ import {
   useMediaQuery, AppBar, Toolbar,
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import ExtensionIcon from '@mui/icons-material/Extension';
-import TableChartIcon from '@mui/icons-material/TableChart';
-import InsightsIcon from '@mui/icons-material/Insights';
-import MenuIcon from '@mui/icons-material/Menu';
+import {
+  Extension as ExtensionIcon,
+  TableChart as TableChartIcon,
+  Insights as InsightsIcon,
+  Menu as MenuIcon,
+} from '@mui/icons-material';
 import ChessIconSvg from './ChessIcon';
 
 const DRAWER_W = 240;
